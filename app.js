@@ -6,9 +6,9 @@ cartao.className = 'cartao';
 cartao.innerHTML = `
  <div class="cartao_conteudo">
             <h3>${categoria}</h3>
-            <div class="categoria-pergunta-resposta">
+            <div class="categoria-pergunta">
                 <p><${pergunta}/p>
-            <div class="categoria-pergunta-resposta">
+            <div class="categoria-resposta">
                 <p>${resposta}</p>
 
             </div>
