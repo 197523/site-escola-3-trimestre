@@ -5,7 +5,7 @@ criaCartao(
     
     criaCartao(
     'Matemática',
-    'Qual o teorema de Pitágoras?',
+    'Qual é o teorema de Pitágoras?',
     'a²=b²+c²')
     
     criaCartao(
