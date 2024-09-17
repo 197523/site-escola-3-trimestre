@@ -1,0 +1,21 @@
+:root{
+    --caixa-cor-frente:#1bd6cd;
+    --caixa-cor-verso:#e013cf;
+    --fundo:#f1f1f1;
+    --preto: black;
+    --branco: white;
+    --cor-texto-destaque: #0b66ee;
+
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+}
