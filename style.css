@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: var(--caixa-cor-frente);
+    background-color: var(--fundo);
 }
 
 footer{
@@ -35,5 +35,5 @@ footer{
 
 .cartao_conteudo{
     background-color: var(--caixa-cor-frente);
-    text-aling: center;
+    text-align: center;
 }
