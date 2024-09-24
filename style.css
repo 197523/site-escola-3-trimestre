@@ -37,3 +37,11 @@ footer{
     background-color: var(--caixa-cor-frente);
     text-align: center;
 }
+
+.cartao_conteudo h3{
+    border: 1px solid var(--preto);
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.5rem;
+}
+
