@@ -7,7 +7,7 @@ cartao.innerHTML = `
  <div class="cartao_conteudo">
             <h3>${categoria}</h3>
             <div class="cartao-pergunta">
-                <p><${pergunta}/p>
+                <p><${pergunta}</p>
             <div class="cartao-resposta">
                 <p>${resposta}</p>
 
