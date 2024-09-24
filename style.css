@@ -52,11 +52,12 @@ footer{
 }
 
 .cartao-resposta{
-    color: var(--caixa-cor-verso);
+    background-color: var(--caixa-cor-verso);
+    transform: rotateY('180deg')
 }
 
 .cartao.active .cartao_conteudo{
-    transform: rotateY('181deg');
+    transform: rotateY('180deg');
 }
 
 .cartao-pergunta, .cartao-resposta{
