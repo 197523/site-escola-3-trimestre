@@ -36,6 +36,8 @@ footer{
 .cartao_conteudo{
     background-color: var(--caixa-cor-frente);
     text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 .cartao_conteudo h3{
@@ -53,7 +55,8 @@ footer{
 
 .cartao-resposta{
     background-color: var(--caixa-cor-verso);
-    transform: rotateY('180deg')
+    transform: rotateY('180deg');
+    border: 1px solid var(--cor-texto-destaque);
 }
 
 .cartao.active .cartao_conteudo{
