@@ -71,8 +71,8 @@ footer{
     box-sizing: border-box;
 }
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
+    --text-color: #f7f7f8;
+    --card-front-color: #1be722;
     --card-back-color: #00F4BF;
     --fundo: #c3c4e3;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .cartao__conteudo__resposta p {
-    color: var(--card-back-color);
+    color: var(--caixa-cor-frente);
     font-weight: 700;
 }
 
@@ -148,8 +148,8 @@ body {
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
-    background-color: rgba(0, 244, 191, 0.2);
-    border: 4px solid var(--card-back-color);
+    background-color: rgba(11, 219, 174, 0.2);
+    border: 4px solid var(--caixa-cor-verso);
 }
 
 footer {
