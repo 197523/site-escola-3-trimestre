@@ -50,3 +50,11 @@ footer{
     padding: 2rem;
     padding-top: 3rem;
 }
+
+.cartao-resposta{
+    color: var(--caixa-cor-verso);
+}
+
+.cartao.active .cartao_conteudo{
+    transform: rotateY('181deg');
+}
