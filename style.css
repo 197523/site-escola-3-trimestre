@@ -148,7 +148,7 @@ body {
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
-    background-color: rgba(56, 231, 193, 0.2);
+    background-color: rgba(228, 236, 235, 0.581);
     border: 4px solid var(--caixa-cor-verso);
 }
 
